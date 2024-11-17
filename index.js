@@ -125,6 +125,7 @@ const app = {
     {
         _this.isPlaying = true;
         player.classList.add('playing');
+      cdThumbAnimate.play();
     };
     audio.onpause = function()
     {
