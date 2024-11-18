@@ -114,6 +114,16 @@ const app = {
         </div>`;
     });
     playlist.innerHTML = htmls.join("");
+    const favicon = document.querySelector('link[rel="icon"]');
+
+// Kiểm tra xem thẻ <link> có tồn tại hay không
+if (favicon) {
+    // Thay đổi thuộc tính href
+    favicon.href = 'logo.png'; // Đường dẫn đến favicon mới
+    console.log('Favicon đã được thay đổi.');
+} else {
+    console.warn('Không tìm thấy thẻ <link rel="icon">.');
+}
   },
   
   
