@@ -32,6 +32,18 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
+      name: "Wild Flower",
+      singer: "Billie Eilish",
+      path: "wildflower.mp3",
+      image: "wildflower.jpg"
+    },
+    {
+      name: "Bình Yên",
+      singer: "Vũ",
+      path: "binhyen.mp3",
+      image: "binhyen.jpg"
+    },
+    {
       name: "Tung Quen",
       singer: "Wren Evans",
       path: "tungquen.mp3",
